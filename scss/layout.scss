@@ -112,6 +112,9 @@ $mainMinHeight: calc( 100vh - ( #{$headerHeight} + #{$footerHeight} + 51px ) );
             }
           }
           &.news {
+            p {
+              margin-bottom: 20px;
+            }
             input {
               &[type=text] {
                 border: 0;
